@@ -1,6 +1,7 @@
 def main():
-    name, house = get_student()
-    print(f"{name} from {house}")
+    #name, house = get_student()        # no need to unpack if you are using a tuple explicitly 
+    student = get_student()
+    print(f"{student[0]} from {student[1]}")
 
 def get_student():
     name = input("Name: ")
