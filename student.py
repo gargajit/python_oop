@@ -1,4 +1,5 @@
-#Tuple is similar to list in spirit but it is **immutable**.
+#Tuple is similar to list in spirit but it is **immutable**. Hence the values cannot be modified.
+# If tried to modify, it will throw TypeError: 'tuple' object does not support item assignment
 
 def main():
     #name, house = get_student()        # no need to unpack if you are using a tuple explicitly 
