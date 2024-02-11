@@ -1,3 +1,5 @@
+#Tuple is similar as list in spirit but it is **immutable**.
+
 def main():
     #name, house = get_student()        # no need to unpack if you are using a tuple explicitly 
     student = get_student()
