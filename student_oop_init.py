@@ -7,6 +7,9 @@ class Student:
     self.name = name
     self.house = house
 
+  def __str__(self):
+    return f"{self.name} from {self.house}"
+
 '''
 The __init__ function inside the class Student will always be called when the Student function is invoked.
 This is the way to implement the initialization of an object in Python.
@@ -14,7 +17,8 @@ This is the way to implement the initialization of an object in Python.
 
 def main():
   student = get_student()
-  print(f"{student.name} from {student.house}")
+  print (student)
+
 
 def get_student():
   name = input("Name: ")
