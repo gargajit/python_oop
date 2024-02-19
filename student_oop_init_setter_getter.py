@@ -12,7 +12,7 @@ class Student:
     def house(self):
        return self._house
     
-    @house.getter
+    @house.setter
     def house(self, house):
        if house not in ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]:
             raise ValueError("Invalid House")
@@ -21,6 +21,7 @@ class Student:
 
 def main():
   student = get_student()
+  #student.house = "Number 4"
   print(student)
 
 
