@@ -12,6 +12,8 @@ class Student:
         house = input("House: ")
         return cls(name, house)
     
+# Everything related to the student is in the class Student. 
+# The only other things in the file are the main and the conditional.
 
 def main():
   student = Student.get()
